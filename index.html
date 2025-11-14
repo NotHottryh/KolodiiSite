@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="uk">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hexagon Trading — Головна</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="header">
+  <div class="logo"><img src="assets/avatar1.png" alt="logo"><div><div class="brand">HEXAGON TRADING</div><div style="font-size:12px;color:var(--muted)">Крипто | Трейдинг | Навчання</div></div></div>
+  <nav class="nav" role="navigation" aria-label="Главное меню">
+    <a href="index.html">Головна</a>
+    <a href="learn/index.html">Навчання</a>
+    <a href="tools/index.html">Інструменти</a>
+    <a href="about.html">Про нас</a>
+    <a href="contacts.html">Контакти</a>
+  </nav>
+  <button class="hamburger" aria-label="menu" aria-expanded="false">☰</button>
+</header>
+<section class="hero"><h1>HEXAGON TRADING</h1><p>Твій шлях у світ криптовалют і трейдингу. Навчальні матеріали, інструменти та реальні дані ринку в одному місці.</p><a class="cta" href="learn/index.html">Почати навчання</a></section>
+<div class="container">
+  <h2 style="margin-bottom:14px">Швидкий огляд</h2>
+  <div class="grid">
+    <div class="card"><h3>Навчання</h3><p class="muted">Послідовні уроки від основ до стратегій.</p><p><a href="learn/index.html">Перейти</a></p></div>
+    <div class="card"><h3>Інструменти</h3><p class="muted">Графіки, біржі, корисні сервіси.</p><p><a href="tools/index.html">Перейти</a></p></div>
+    <div class="card"><h3>Ринок (живі дані)</h3><div class="price"><div><div class="sym" id="bitcoin-price">BTC — loading...</div><small id="bitcoin-change"></small></div><div class="spark"><canvas id="bitcoin-spark" width="160" height="40"></canvas></div></div><p><small>Дані — CoinGecko API</small></p></div>
+    <div class="card"><h3>ETH — Live</h3><div class="price"><div><div class="sym" id="ethereum-price">ETH — loading...</div><small id="ethereum-change"></small></div><div class="spark"><canvas id="ethereum-spark" width="160" height="40"></canvas></div></div><p><small>Дані — CoinGecko API</small></p></div>
+    <div class="card"><h3>SOL — Live</h3><div class="price"><div><div class="sym" id="solana-price">SOL — loading...</div><small id="solana-change"></small></div><div class="spark"><canvas id="solana-spark" width="160" height="40"></canvas></div></div><p><small>Дані — CoinGecko API</small></p></div>
+  </div>
+  <h2 style="margin-top:34px">Чому Hexagon?</h2>
+  <div class="grid" style="margin-top:10px">
+    <div class="card"><h4>Практичні матеріали</h4><p>Керівництва, чеклісти, приклади.</p></div>
+    <div class="card"><h4>Актуальні інструменти</h4><p>Як користуватись TradingView, біржами та API.</p></div>
+    <div class="card"><h4>Спільнота</h4><p>Telegram, чат, обмін ідеями.</p></div>
+  </div>
+</div>
+<footer>© Hexagon Trading — зроблено для навчання.</footer>
+<script src="scripts.js"></script>
+</body></html>
